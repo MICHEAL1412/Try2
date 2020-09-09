@@ -10,15 +10,19 @@
             android:onClick="home"/>
         <item
             android:id="@+id/movie"
-            android:title="@string/menu_movie">
+            android:title="@string/menu_movie"
+            android:onClick="movie">
 
             <menu>
-                <item android:id="@+id/sub_coming_soon"
-                    android:title="Coming Soon"/>
-                <item android:id="@+id/sub_now_showing"
-                    android:title="Now showing"/>
-                <item android:id="@+id/sub_popular"
-                    android:title="Popular"/>
+                <item android:id="@+id/nav_coming_soon"
+                    android:title="Coming Soon"
+                    android:onClick="coming"/>
+                <item android:id="@+id/nav_now_showing"
+                    android:title="Now showing"
+                    android:onClick="now"/>
+                <item android:id="@+id/nav_popular"
+                    android:title="Popular"
+                    android:onClick="popular"/>
             </menu>
 
         </item>
@@ -27,13 +31,16 @@
         <menu>
             <item
                 android:id="@+id/food_beverage"
-                android:title="@string/menu_food_beverage"/>
+                android:title="@string/menu_food_beverage"
+                android:onClick="food"/>
             <item
                 android:id="@+id/showtime"
-                android:title="@string/menu_show_time" />
+                android:title="@string/menu_show_time"
+                android:onClick="show"/>
             <item
                 android:id="@+id/experiences"
-                android:title="@string/menu_experiences" />
+                android:title="@string/menu_experiences"
+                android:onClick="experiences"/>
         </menu>
     </item>
     <item android:title="Help">

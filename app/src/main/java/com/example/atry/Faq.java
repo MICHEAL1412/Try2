@@ -8,7 +8,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Faq extends AppCompatActivity {
-    private static final String LOG_TAG = MainActivity.class.getSimpleName();
+    private static final String LOG_TAG = Faq.class.getSimpleName();
 
     protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
